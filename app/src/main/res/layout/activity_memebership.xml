@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Memebership">
+   <LinearLayout
+       android:layout_alignParentTop="true"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentEnd="true"
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:id="@+id/linearl1"
+       android:layout_height="wrap_content">
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/linearl2"
+       android:layout_alignParentStart="true"
+       android:orientation="vertical"
+       android:layout_alignParentEnd="true"
+       android:layout_alignTop="@+id/linearl1"
+       >
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Premium Membership"
+          android:layout_marginLeft="10dp"
+          android:paddingVertical="20dp"
+          android:fontFamily="@font/bungee"
+          android:layout_marginRight="10dp"
+         android:id="@+id/mem1">
+
+      </Button>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:paddingVertical="20dp"
+          android:fontFamily="@font/bungee"
+          android:text="Platinum Membership"
+          android:id="@+id/mem2">
+
+      </Button>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingVertical="20dp"
+          android:layout_marginLeft="10dp"
+          android:fontFamily="@font/bungee"
+          android:layout_marginRight="10dp"
+          android:text="Gold Membership"
+          android:id="@+id/mem3">
+
+      </Button>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingVertical="20dp"
+          android:layout_marginLeft="10dp"
+          android:fontFamily="@font/bungee"
+          android:layout_marginRight="10dp"
+          android:text="Silver Membership"
+          android:id="@+id/mem4">
+
+      </Button>
+
+
+   </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/ptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="@font/bungee"
+        android:onClick="clicked"
+        android:text="Pay To Activate Referal"></Button>
+</RelativeLayout>

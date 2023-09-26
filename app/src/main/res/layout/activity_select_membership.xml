@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectMembership">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_marginTop="20dp"
+           android:layout_width="150dp"
+           android:id="@+id/typeimg"
+           android:src="@drawable/memcrown"
+           android:layout_height="150dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:id="@+id/memname"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:text="PLATINUM MEMBERSHIP"
+           android:textSize="20dp"
+           android:fontFamily="@font/brunoregular"
+           android:layout_height="wrap_content">
+       </TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:id="@+id/memcost"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:text="MEMBERSHIP COST"
+           android:textSize="20dp"
+           android:fontFamily="@font/righteousregular"
+           android:layout_height="wrap_content">
+       </TextView>
+   </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/pay_mcost"
+        android:text="PAY"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-6dp"/>
+</RelativeLayout>
